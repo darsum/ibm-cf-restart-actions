@@ -24,4 +24,4 @@ jobs:
       run: cf l -a https://api.eu-de.cf.cloud.ibm.com login -u shaodasheng10@gmail.com -p Fuck111111
       
     - name: Restart CF APP
-      run: cf rs teamiwang.api.eu-de.cf.cloud.ibm.com
+      run: cf rs teamiwang
